@@ -1,15 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: [],
-  darkMode: false,
-  content: [],
+  from: "css/tailwind.css",
+  to: "build/tailwind.css",
+  content: ["./index.html", "./src/**/*.js"],
   theme: {
     extend: {},
   },
   variants: {
     extend: {
       backgroundColor: ["active"],
-      fontSize: ["hover"],
     },
   },
   plugins: [],
