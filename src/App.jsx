@@ -27,12 +27,15 @@ export default function App() {
             </p>
             <div className="mt-4 space-x-1 sm:mt-6">
               <a
-                className="btn btn-primary shadow-lg hover:-translate-y-0.5 transform transition"
+                className="inline-block px-5 py-3 rounded-lg focus:outline-none focus:ring focus:ring-offset-2 focus:ring-opacity-50 uppercase tracking-wider font-semibold text-sm sm:text-base bg-brand hover:bg-brand-light focus:ring-brand-light active:bg-brand-dark text-white shadow-lg hover:-translate-y-0.5 transform transition"
                 href="#"
               >
                 Book your escape
               </a>
-              <a className="btn btn-secondary" href="#">
+              <a
+                className="inline-block px-5 py-3 rounded-lg focus:outline-none focus:ring focus:ring-offset-2 focus:ring-opacity-50 uppercase tracking-wider font-semibold text-sm sm:text-base bg-gray-300 hover:bg-gray-200 focus:ring-gray-300 active:bg-gray-400 text-gray-800"
+                href="#"
+              >
                 Learn more
               </a>
             </div>
