@@ -1,13 +1,13 @@
 {
   "name": "tailwind-up-and-running",
   "version": "1.0.0",
-  "description": "",
+  "description": "A responsive Workcation site built using Tailwind CSS",
   "main": "index.js",
   "scripts": {
     "dev": "vite"
   },
   "keywords": [],
-  "author": "",
+  "author": "Juan Lucero",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.15",
