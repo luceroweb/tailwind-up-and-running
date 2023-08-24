@@ -54,9 +54,11 @@ export default function App() {
           explore.
         </p>
 
-        {popularDestinations.map((destination) => (
-          <DestinationCard destination={destination} key={destination.city} />
-        ))}
+        <div className="mt-6 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
+          {popularDestinations.map((destination) => (
+            <DestinationCard destination={destination} key={destination.city} />
+          ))}
+        </div>
       </div>
     </div>
   );
