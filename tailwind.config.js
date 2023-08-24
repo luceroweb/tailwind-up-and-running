@@ -4,7 +4,15 @@ module.exports = {
   to: "public/css/tailwind.css",
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          light: "#3fbaeb",
+          DEFAULT: "#0fa9e6",
+          dark: "#0c87b8",
+        },
+      },
+    },
   },
   variants: {
     extend: {
