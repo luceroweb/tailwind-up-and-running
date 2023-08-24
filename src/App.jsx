@@ -15,9 +15,9 @@ export default function App() {
               src="./img/beach-work.jpg"
               alt="Woman workcationing on the beach"
             />
-            <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
+            <h1 className="mt-6 text-2xl font-headline tracking-tight font-semibold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
               You can work from anywhere.
-              <br className="hidden lg:inline" />
+              <br />
               <span className="text-brand">Take advantage of it.</span>
             </h1>
             <p className="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
