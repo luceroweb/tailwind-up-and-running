@@ -4,7 +4,8 @@
   "description": "A responsive Workcation site built using Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "Juan Lucero",
